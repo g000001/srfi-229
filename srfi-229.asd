@@ -11,7 +11,7 @@ https://srfi.schemers.org/srfi-229"
   :author "CHIBA Masaomi"
   :maintainer "CHIBA Masaomi"
   :serial t
-  :depends-on (srfi-16)
+  :depends-on (trivial-garbage srfi-16)
   :components ((:file "package")
                (:file "srfi-229")))
 
